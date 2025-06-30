@@ -19,7 +19,6 @@ function Hero() {
         autoplay
         autoplaySpeed={4000}
         effect="fade"
-        beforeChange={(_, next) => setCurrent(next)}
         dots={false}
         className="h-screen"
       >
