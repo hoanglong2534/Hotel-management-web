@@ -15,7 +15,7 @@ function BookingForm() {
           layout='vertical'
           form={form}
           style={{ maxWidth: 'vertical' === 'inline' ? 'none' : 350 }}
-          className='border rounded-sm border-[#E7BE95] !px-4 !py-8 '
+          className='border rounded-sm border-[#E7BE95] !px-4 !py-8 bg-white'
         >
           <h1 className="w-full text-center text-4xl ">ĐẶT PHÒNG</h1>
           <Form.Item label="Ngày nhận phòng và trả phòng:">

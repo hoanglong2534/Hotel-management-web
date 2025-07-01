@@ -85,7 +85,7 @@ function Header() {
   ]
   return (
     <>
-      <Row className="bg-white-200 h-16 items-center !pl-10 border-b border-gray-300">
+      <Row className="bg-white h-16 items-center !pl-10 border-b border-gray-300">
         <Col className="flex items-center hover:!text-[#E7BE95]" span={10}>
           <NavLink to="/" className="text-3xl font-bold group">
             <span className="text-black group-hover:!text-[#E7BE95] transition-colors duration-200">HOLO</span>
