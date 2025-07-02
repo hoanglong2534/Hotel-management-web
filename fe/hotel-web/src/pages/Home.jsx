@@ -4,9 +4,9 @@ import Hero from "../components/Hero";
 function Home(){
     return (
         <>
-        {/* <Header/>
-        <Hero/> */}
-        <BookingForm/>
+        <div className="sticky top-0 z-100"><Header/></div>
+        <Hero/>
+        <div className="lg:hidden w-full flex justify-center !my-10  md:scale-110 "><BookingForm/></div>
         </>
     )
 }
