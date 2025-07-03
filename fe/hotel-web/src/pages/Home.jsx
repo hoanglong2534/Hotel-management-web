@@ -2,6 +2,7 @@ import AboutSummary from "../components/AboutSummary";
 import BookingForm from "../components/BookingForm";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import ServiceSummary from "../components/ServiceSummary";
 function Home(){
     return (
         <>
@@ -9,6 +10,7 @@ function Home(){
         <Hero/>
         <div className="lg:hidden w-full flex justify-center !my-10  md:scale-110 "><BookingForm/></div>
         <AboutSummary/>
+        <ServiceSummary/>
         </>
     )
 }
