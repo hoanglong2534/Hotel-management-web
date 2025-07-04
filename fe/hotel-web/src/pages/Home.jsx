@@ -1,5 +1,6 @@
 import AboutSummary from "../components/AboutSummary";
 import BookingForm from "../components/BookingForm";
+import CustomerReview from "../components/CustomerReview";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import RoomSummary from "../components/RoomSummary";
@@ -13,6 +14,7 @@ function Home(){
         <AboutSummary/>
         <ServiceSummary/>
         <RoomSummary/>
+        <CustomerReview/>
         </>
     )
 }
