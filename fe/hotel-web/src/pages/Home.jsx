@@ -3,6 +3,7 @@ import BookingForm from "../components/BookingForm";
 import CustomerReview from "../components/CustomerReview";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import NewsSummary from "../components/NewsSummary";
 import RoomSummary from "../components/RoomSummary";
 import ServiceSummary from "../components/ServiceSummary";
 function Home(){
@@ -15,6 +16,7 @@ function Home(){
         <ServiceSummary/>
         <RoomSummary/>
         <CustomerReview/>
+        <NewsSummary/>  
         </>
     )
 }
