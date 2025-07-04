@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import NewsSummary from "../components/NewsSummary";
 import RoomSummary from "../components/RoomSummary";
 import ServiceSummary from "../components/ServiceSummary";
+import Footer from "../components/Footer";
 function Home(){
     return (
         <>
@@ -17,6 +18,7 @@ function Home(){
         <RoomSummary/>
         <CustomerReview/>
         <NewsSummary/>  
+        <Footer/>
         </>
     )
 }
