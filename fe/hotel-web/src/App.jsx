@@ -6,6 +6,7 @@ import Room from './pages/Room'
 import { RoomDetail } from './pages/RoomDetail'
 import News from './pages/News'
 import NewsDetail from './pages/NewsDetail'
+import Service from './pages/Service'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       {/* <Room/> */}
       {/* <RoomDetail/> */}
       {/* <News/> */}
-      <NewsDetail/>
+      {/* <NewsDetail/> */}
+      <Service/>
     </>
 
   )
