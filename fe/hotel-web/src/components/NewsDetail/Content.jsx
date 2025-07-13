@@ -6,7 +6,7 @@ import LastestContent from '../NewsDetail/LastestContent';
 function Content() {
   return (
     <>
-      <div className='!px-40'>
+      <div className='!px-40'>  
         <Row gutter={[20, 20]}>
           {/* col 1 */}
           <Col span={24} lg={17}>
