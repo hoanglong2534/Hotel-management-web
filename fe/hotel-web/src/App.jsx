@@ -8,6 +8,7 @@ import News from './pages/News'
 import NewsDetail from './pages/NewsDetail'
 import Service from './pages/Service'
 import ServiceDetail from './pages/ServiceDetail'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       {/* <News/> */}
       {/* <NewsDetail/> */}
       {/* <Service/> */}
-      <ServiceDetail/>
+      {/* <ServiceDetail/> */}
+      <Contact/>
     </>
 
   )
