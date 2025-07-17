@@ -22,11 +22,11 @@ function Discover() {
   if (open) {
     var modal =
       <div className={overlayPopUp}>
-        <div className="flex justify-center items-center !pt-20">
+        <div className="flex justify-center items-center !pt-30">
           <iframe className="relative " width="1000" height="500" src="https://www.youtube.com/embed/TOIqsHrrXGE?si=xeNDlHOLjWFocmlZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
           </iframe>
 
-          <IoCloseCircle className="absolute top-10 text-4xl !text-white z-40 cursor-pointer hover:!text-[#E7BE95]" onClick={closeModel} />
+          <IoCloseCircle className="absolute top-20 text-4xl !text-white z-40 cursor-pointer hover:!text-[#E7BE95]" onClick={closeModel} />
         </div>
       </div>
   }
