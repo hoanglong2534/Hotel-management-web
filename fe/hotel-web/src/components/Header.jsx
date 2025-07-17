@@ -122,7 +122,7 @@ function Header() {
             </li>
 
             <li className={liClass}>
-              <NavLink to="service" className={({ isActive }) => {
+              <NavLink to="/service" className={({ isActive }) => {
                 return isActive ? `${linkClass} ${activeClass}` : linkClass
               }}>Dịch vụ</NavLink>
             </li>
