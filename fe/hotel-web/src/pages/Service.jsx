@@ -5,7 +5,7 @@ import ServiceSummary from "../components/Home/ServiceSummary"
 function Service(){
     return (
         <>
-        <Header/>
+        <div className="sticky top-0 z-100"><Header/></div>
         <Welcome/>
         <ServiceSummary/>
         <Footer/>

@@ -7,12 +7,12 @@ import { Row, Col } from 'antd'
 export function RoomDetail() {
     return (
         <>
-            <Header />
+            <div className="sticky top-0 z-100"><Header /></div>
             <Welcome />
             <div className="!px-20">
                 <Row gutter={[24, 24]} >
                     <Col span={24} lg={18}> <RoomInfo /></Col>
-                    <Col span={24} lg={6}><BookingForm className="w-full"/></Col>
+                    <Col span={24} lg={6}><BookingForm className="w-full" /></Col>
                 </Row>
             </div>
             <Footer />

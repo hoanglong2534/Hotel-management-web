@@ -5,10 +5,10 @@ import Welcome from "../components/News/Welcome"
 function News() {
   return (
     <>
-      <Header/>
-      <Welcome/>
+      <div className="sticky top-0 z-100"><Header /></div>
+      <Welcome />
       <NewsSummary className="!pb-15:hidden" />
-      <Footer/> 
+      <Footer />
     </>
   )
 }

@@ -5,7 +5,7 @@ import Welcome from "../components/Service/Welcome"
 function ServiceDetail(){
     return (
         <>
-        <Header/>
+        <div className="sticky top-0 z-100"><Header/></div>
         <Welcome/>
         <Content/>
         <Footer/>

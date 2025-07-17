@@ -8,7 +8,7 @@ import Gallery from "../components/About/Gallery"
 function About() {
   return (
     <>
-      <Header/>
+      <div className="sticky top-0 z-100"><Header/></div>
       <Welcome/>
       <Service/>
       <Discover/>

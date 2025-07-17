@@ -5,10 +5,10 @@ import RoomList from "../components/Room/RoomList"
 function Room() {
   return (
     <>
-    <Header/>
-    <Welcome/>
-    <RoomList/>
-    <Footer/>
+      <div className="sticky top-0 z-100"><Header /></div>
+      <Welcome />
+      <RoomList />
+      <Footer />
     </>
   )
 }

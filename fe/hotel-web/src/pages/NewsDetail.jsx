@@ -6,9 +6,9 @@ import Welcome from "../components/News/Welcome.jsx"
 function NewsDetail() {
   return (
     <>
-      <Header />
-      <Welcome/>
-      <Content/>
+      <div className="sticky top-0 z-100"><Header /></div>
+      <Welcome />
+      <Content />
       <Footer />
     </>
   )

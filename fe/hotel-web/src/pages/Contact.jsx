@@ -8,7 +8,7 @@ import ClientInfo from "../components/Contact/Clientinfo";
 function Contact() {
   return (
     <>
-      <Header />
+      <div className="sticky top-0 z-100"><Header /></div>
       <Welcome />
       <div className="!px-40">
         <Row gutter={[20, 20]}>
