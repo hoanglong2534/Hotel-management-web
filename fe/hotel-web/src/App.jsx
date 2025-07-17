@@ -9,6 +9,7 @@ import NewsDetail from './pages/NewsDetail'
 import Service from './pages/Service'
 import ServiceDetail from './pages/ServiceDetail'
 import Contact from './pages/Contact'
+import Login from './pages/Login'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
       {/* <NewsDetail/> */}
       {/* <Service/> */}
       {/* <ServiceDetail/> */}
-      <Contact/>
+      {/* <Contact/> */}
+      <Login/>
     </>
 
   )
