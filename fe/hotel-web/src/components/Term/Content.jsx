@@ -54,7 +54,7 @@ function Content() {
 					<p className={pClass}>Thanh toán có thể được thực hiện bằng cách chuyển tiền vào tài khoản ngân hàng của chúng tôi. Khách sạn sẽ chịu các chi phí dịch vụ ngân hàng.</p>
 					<p className={pClass}>Tên của người thụ hưởng: thông báo khi trả tiền .</p>
 					<p className={pClass}>Địa chỉ cá nhân của người thụ hưởng : thông báo khi trả tiền .</p>
-					<p>Tên của Ngân hàng thụ hưởng: Vietcombank Hà Nội ( NGÂN HÀNG NGOẠI THƯƠNG VIỆT NAM – CHI NHÁNH HÀ NỘI )</p>
+					<p className={pClass}>Tên của Ngân hàng thụ hưởng: Vietcombank Hà Nội ( NGÂN HÀNG NGOẠI THƯƠNG VIỆT NAM – CHI NHÁNH HÀ NỘI )</p>
 					<p className={pClass}>Địa chỉ của Ngân hàng thụ hưởng: 123 abc, Quận xya , Hà Nội , Việt Nam .</p>
 					<p className={pClass}>Số tài khoản người hưởng: 1234565678</p>
 				</div>
