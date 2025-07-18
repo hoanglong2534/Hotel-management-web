@@ -14,6 +14,7 @@ import PageNotFound from './pages/PageNotFound'
 import { Route, Routes } from 'react-router-dom'
 import FAQ from './pages/FAQ'
 import Term from './pages/Term.'
+import Policy from './pages/Policy'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
         <Route path='/register' element={<Login isRegister={true} />} />
         <Route path='/faq' element={<FAQ />} />
         <Route path='/term' element={<Term />} />
+        <Route path='/policy' element={<Policy />} />
 
 
         <Route path='*' element={<PageNotFound />} />
