@@ -27,9 +27,9 @@ function App() {
         <Route path='/service' element={<Service />} />
         <Route path='/service:id' element={<ServiceDetail />} />
         <Route path='/contact' element={<Contact />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Login />} />
-        
+        <Route path='/login' element={<Login isRegister={false} />} />
+        <Route path='/register' element={<Login isRegister={true} />} />
+
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </>
