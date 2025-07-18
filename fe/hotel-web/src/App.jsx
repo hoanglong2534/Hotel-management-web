@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import Login from './pages/Login'
 import PageNotFound from './pages/PageNotFound'
 import { Route, Routes } from 'react-router-dom'
+import FAQ from './pages/FAQ'
 
 function App() {
 
@@ -24,11 +25,14 @@ function App() {
         <Route path='/room' element={<Room />} />
         <Route path='/room:id' element={<RoomDetail />} />
         <Route path='/news' element={<News />} />
+        <Route path='/news:id' element={<NewsDetail />} />
         <Route path='/service' element={<Service />} />
         <Route path='/service:id' element={<ServiceDetail />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login isRegister={false} />} />
         <Route path='/register' element={<Login isRegister={true} />} />
+        <Route path='/faq' element={<FAQ/>} />
+
 
         <Route path='*' element={<PageNotFound />} />
       </Routes>
