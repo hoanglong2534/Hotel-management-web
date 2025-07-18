@@ -4,7 +4,8 @@ import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaUserLarge } from "react-icons/fa6";
 
-
+import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import { Space } from 'antd';
 
 
 function Header() {
@@ -81,8 +82,60 @@ function Header() {
         }}  >Liên hệ</NavLink>
       ),
     },
+    {
+      key: '7',
+      label: (
+         <NavLink to="/term" className={({ isActive }) => {
+          return isActive ? `${linkClass} ${activeClass}` : linkClass
+        }}  >Điều khoản sử dụng</NavLink>
+      ),
+    },
+      {
+      key: '8',
+      label: (
+         <NavLink to="/policy" className={({ isActive }) => {
+          return isActive ? `${linkClass} ${activeClass}` : linkClass
+        }}  >Chính sách</NavLink>
+      ),
+    },
+      {
+      key: '99',
+      label: (
+         <NavLink to="/faq" className={({ isActive }) => {
+          return isActive ? `${linkClass} ${activeClass}` : linkClass
+        }}  >Câu hỏi thường gặp</NavLink>
+      ),
+    },
 
   ]
+
+  const itemWatchmore = [
+    {
+      key: '1',
+      label: (
+        <NavLink rel="noopener noreferrer" to="/term" className={linkClass}>
+          Điều khoản sử dụng
+        </NavLink>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+        <NavLink rel="noopener noreferrer" to="/policy" className={linkClass}>
+          Chính sách
+        </NavLink>
+      ),
+    },
+    {
+      key: '3',
+      label: (
+        <NavLink rel="noopener noreferrer" to="/faq" className={linkClass}>
+          Câu hỏi thường gặp
+        </NavLink>
+      ),
+    },
+
+  ];
   return (
     <>
       <Row className="bg-white h-16 items-center !pl-10 border-b border-gray-300">
@@ -137,6 +190,17 @@ function Header() {
               <NavLink to="/contact" className={({ isActive }) => {
                 return isActive ? `${linkClass} ${activeClass}` : linkClass
               }}  >Liên hệ</NavLink>
+            </li>
+
+            <li className={liClass}>
+              <Dropdown menu={{ items: itemWatchmore }} >
+                <NavLink className={linkClass}>
+                  <Space>
+                    Xem thêm
+                    <DownOutlined />
+                  </Space>
+                </NavLink>
+              </Dropdown>
             </li>
           </ul>
         </Col>

@@ -53,9 +53,9 @@ function Footer() {
           <Col span={24} lg={12}>
             <div className='flex lg:gap-10 md:gap-2 gap-10 w-full md:justify-center'>
               <NavLink to="/contact" className="hover:!text-[#E7BE95]"><p>Liên hệ</p></NavLink>
-              <NavLink to="" className="hover:!text-[#E7BE95]"><p>Điều khoản sử dụng</p></NavLink>
-              <NavLink to="" className="hover:!text-[#E7BE95]"><p>Chính sách</p></NavLink>
-              <NavLink to="" className="hover:!text-[#E7BE95]"><p>Chính sách môi trường</p></NavLink>
+              <NavLink to="/term" className="hover:!text-[#E7BE95]"><p>Điều khoản sử dụng</p></NavLink>
+              <NavLink to="/policy" className="hover:!text-[#E7BE95]"><p>Chính sách</p></NavLink>
+              <NavLink to="/faq" className="hover:!text-[#E7BE95]"><p>Câu hỏi thường gặp</p></NavLink>
             </div>
           </Col>
 
