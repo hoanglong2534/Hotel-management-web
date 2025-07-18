@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaUserLarge } from "react-icons/fa6";
 
-import { DownOutlined, SmileOutlined } from '@ant-design/icons';
+import { DownOutlined} from '@ant-design/icons';
 import { Space } from 'antd';
 
 
@@ -61,7 +61,7 @@ function Header() {
     {
       key: '4',
       label: (
-        <NavLink to="service" className={({ isActive }) => {
+        <NavLink to="/service" className={({ isActive }) => {
           return isActive ? `${linkClass} ${activeClass}` : linkClass
         }}>Dịch vụ</NavLink>
       ),
