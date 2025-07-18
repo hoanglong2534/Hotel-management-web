@@ -13,6 +13,7 @@ import Login from './pages/Login'
 import PageNotFound from './pages/PageNotFound'
 import { Route, Routes } from 'react-router-dom'
 import FAQ from './pages/FAQ'
+import Term from './pages/Term.'
 
 function App() {
 
@@ -31,7 +32,8 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/login' element={<Login isRegister={false} />} />
         <Route path='/register' element={<Login isRegister={true} />} />
-        <Route path='/faq' element={<FAQ/>} />
+        <Route path='/faq' element={<FAQ />} />
+        <Route path='/term' element={<Term />} />
 
 
         <Route path='*' element={<PageNotFound />} />
